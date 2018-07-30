@@ -1,0 +1,99 @@
+﻿body, select {
+    font: 10pt sans;
+}
+#containerWrapper {
+    margin: 0px auto;
+    width: 100%;
+}
+#mynetwork {
+    float: left;
+    position:relative;
+    width: 800px;
+    height: 600px;
+    border: 1px solid lightgray;
+}
+table.legend_table {
+    font-size: 11px;
+    border-width:1px;
+    border-color:#d3d3d3;
+    border-style:solid;
+}
+table.legend_table,td {
+    border-width:1px;
+    border-color:#d3d3d3;
+    border-style:solid;
+    padding: 2px;
+}
+div.table_content {
+    width:80px;
+    text-align:center;
+}
+div.table_description {
+    width:100px;
+}
+
+.op {
+    font-size:28px;
+}
+.popUp {
+    display:none;
+    position:absolute;
+    top:350px;
+    left:170px;
+    z-index:299;
+    width:250px;
+    height:120px;
+    background-color: #f9f9f9;
+    border-style:solid;
+    border-width:3px;
+    border-color: #5394ed;
+    padding:10px;
+    text-align: center;
+}
+#calulateMST{
+    float: left;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    display: block;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #2d74b2;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}

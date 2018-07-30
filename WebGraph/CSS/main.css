@@ -1,0 +1,25 @@
+﻿body {
+}
+#containerWrapper {
+    margin: 0px auto;
+    width: 100%;
+}
+#demo {
+    width: 800px;
+    height: 800px;
+    border: 1px solid #444444;
+    background-color: #222222;
+    float: left;
+}
+#tabelAddtoNetwork {
+    float: left;
+    margin-left: 0.9%;
+}
+.containerButton .button{
+    /*padding: 15px 32px;*/
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    display: block;
+}

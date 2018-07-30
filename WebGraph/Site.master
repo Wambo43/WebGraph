@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>    
+    <asp:ContentPlaceHolder id="Titel" runat="server">
+    </asp:ContentPlaceHolder>
+    </title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <div>
+        <div class="menu-master"id="tab">
+        <ul>
+            <li><a href="default.aspx">Home</a></li>
+<%--            <li><a href="Content.aspx">Web Graph</a></li>--%>
+            <li><a href="WebGraph.aspx">Web Graph</a></li>
+        </ul>
+    </div>
+        <asp:ContentPlaceHolder id="content" runat="server">        
+        </asp:ContentPlaceHolder>
+    </div>
+
+</body>
+</html>
